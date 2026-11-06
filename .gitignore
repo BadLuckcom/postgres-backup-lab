@@ -1,0 +1,22 @@
+# Environment variables and secrets
+.env
+
+# PostgreSQL backups
+backups/*
+!backups/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Lock files
+backup.lock
+*.lock
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python cache
+__pycache__/
+*.pyc
